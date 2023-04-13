@@ -1,0 +1,6 @@
+﻿  九九乘法表.cpp
+  猜数字游戏.cpp
+D:\Aa1杰啊杰\C\文件\初级222222222\分支语句和循环语句\练习题\猜数字游戏.cpp(18,1): warning C4005: “RAND_MAX”: 宏重定义
+D:\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(348,1): message : 参见“RAND_MAX”的前一个定义
+  正在生成代码...
+  练习题.vcxproj -> D:\Aa1杰啊杰\C\文件\初级222222222\分支语句和循环语句\练习题\x64\Debug\练习题.exe

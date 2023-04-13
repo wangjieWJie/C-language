@@ -1,0 +1,11 @@
+strlen-----sting length----字符串长度
+strcpy----string copy-----字符复制
+
+
+
+system("cls");       //system是执行系统命令的一个函数，---cls则表示清空屏幕  他在<stdlib.h>里
+
+
+
+//为了让他动态展示，我们让他每打印一次停留一秒
+Sleep(1000);        //在<windows.h>里（实际上不引入也能用），单位是ms

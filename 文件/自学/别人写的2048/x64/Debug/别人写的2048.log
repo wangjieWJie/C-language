@@ -1,0 +1,4 @@
+﻿  源.cpp
+D:\Aa1杰啊杰\C\文件\自学\别人写的2048\源.cpp(98,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Aa1杰啊杰\C\文件\自学\别人写的2048\源.cpp(361,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  别人写的2048.vcxproj -> D:\Aa1杰啊杰\C\文件\自学\别人写的2048\x64\Debug\别人写的2048.exe

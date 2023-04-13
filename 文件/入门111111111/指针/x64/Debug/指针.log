@@ -1,0 +1,16 @@
+﻿  源.cpp
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(17,24): warning C4305: “初始化”: 从“int”到“char”截断
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(17,18): warning C4309: “初始化”: 截断常量值
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(24,19): warning C4305: “=”: 从“int”到“char”截断
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(24,13): warning C4309: “=”: 截断常量值
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(26,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(26,9): message : 请考虑在格式字符串中使用“%zd”
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(29,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(29,9): message : 请考虑在格式字符串中使用“%zd”
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(30,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(30,9): message : 请考虑在格式字符串中使用“%zd”
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(31,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(31,9): message : 请考虑在格式字符串中使用“%zd”
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(32,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Aa1杰啊杰\C\文件\指针\源.cpp(32,9): message : 请考虑在格式字符串中使用“%zd”
+  指针.vcxproj -> D:\Aa1杰啊杰\C\文件\指针\x64\Debug\指针.exe

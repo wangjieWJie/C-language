@@ -1,0 +1,3 @@
+﻿  转义字符.cpp
+转义字符.obj : error LNK2005: main 已经在 字符串.obj 中定义
+D:\Aa1杰啊杰\C++\文件\字符串\x64\Debug\字符串.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

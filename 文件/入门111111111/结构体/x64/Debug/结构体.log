@@ -1,0 +1,4 @@
+﻿  源.cpp
+D:\Aa1杰啊杰\C\文件\结构体\源.cpp(16,48): warning C4838: 从“double”转换到“short”需要收缩转换
+D:\Aa1杰啊杰\C\文件\结构体\源.cpp(16,48): warning C4244: “初始化”: 从“double”转换到“short”，可能丢失数据
+  结构体.vcxproj -> D:\Aa1杰啊杰\C\文件\结构体\x64\Debug\结构体.exe
