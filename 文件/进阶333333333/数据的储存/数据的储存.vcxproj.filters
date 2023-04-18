@@ -21,5 +21,8 @@
     <ClCompile Include="b、反码、补码、源码.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="c.数据的存储.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

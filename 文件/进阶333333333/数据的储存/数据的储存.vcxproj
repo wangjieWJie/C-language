@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="a、C语言语言类型.cpp" />
     <ClCompile Include="b、反码、补码、源码.cpp" />
+    <ClCompile Include="c.数据的存储.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
