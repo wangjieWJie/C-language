@@ -18,13 +18,16 @@
     <ClCompile Include="含8数之和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="自己名字变三角.cpp">
+    <ClCompile Include="success.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="自己名字变三角23.cpp">
+    <ClCompile Include="基本功能.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="水仙花.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="名字三角  优化.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

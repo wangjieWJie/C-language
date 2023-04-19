@@ -127,10 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="名字三角  优化.cpp" />
     <ClCompile Include="含8数之和.cpp" />
     <ClCompile Include="水仙花.cpp" />
-    <ClCompile Include="自己名字变三角.cpp" />
-    <ClCompile Include="自己名字变三角23.cpp" />
+    <ClCompile Include="success.cpp" />
+    <ClCompile Include="基本功能.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

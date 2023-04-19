@@ -52,10 +52,10 @@ int ADD_NUM_8(int sta, int end)       //用于把数里带8的数加起来的函数
 
 
 
-int main()
+int main1()
 {
 	long result = ADD_NUM_8(1, 2000);
-	printf("%d——%d之间所有带8的数字之和为 ：%d\n", 1,2000,result);
+	printf("\n%d——%d之间所有带8的数字之和为 ：%d\n", 1,2000,result);
 
 	return 0;
 }

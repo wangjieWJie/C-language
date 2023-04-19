@@ -2,7 +2,7 @@
 #include<stdio.h>
 #define ROW 8
 
-int main3()
+int main5656()
 {
 	for (int i = 1; i <= ROW; i++)
 	{
