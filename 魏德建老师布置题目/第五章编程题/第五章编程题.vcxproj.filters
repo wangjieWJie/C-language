@@ -21,5 +21,11 @@
     <ClCompile Include="自己名字变三角.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="自己名字变三角23.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="水仙花.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

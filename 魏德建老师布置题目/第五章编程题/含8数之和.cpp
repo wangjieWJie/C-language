@@ -18,29 +18,44 @@ int weishu(int a)                   //用于计算某个数有几位的函数
 }
 int ADD_NUM_8(int sta, int end)       //用于把数里带8的数加起来的函数
 {
-	int tep;
+	int tep = 0;
 	int retu = 0;
+	int nigao = 0;
+	int fule = 0;
+	int retur = 0;
+
 	for (sta; sta <= end; sta++)
 	{
 		int WS = weishu(sta);
+		nigao = sta;
 		for (WS; WS > 0; WS--)
 		{
-			tep = sta % 10;
-			if (8 == tep)
+
+			fule = nigao % 10;
+			nigao /= 10;
+			tep = nigao % 10;
+			if (8 == nigao || 8 == tep || 8 == fule )
 			{
-				retu = sta + retu;
+				retu = 6;
 			}
 		}
+		if (6 == retu)
+		{
+			printf("%d  ", sta);
+
+			retur = sta + retur;
+		}
+			retu = 0;
 	}
-	return retu;
+	return retur;
 }
 
 
 
-int main1()
+int main()
 {
-	int result = ADD_NUM_8(1, 2000);
-	printf("所定范围内所有带8的数字之和为 ：%d\n", result);
+	long result = ADD_NUM_8(1, 2000);
+	printf("%d——%d之间所有带8的数字之和为 ：%d\n", 1,2000,result);
 
 	return 0;
 }

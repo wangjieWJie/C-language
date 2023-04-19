@@ -28,7 +28,7 @@ void name_triangle(char name[])
 
 }
 
-int main()
+int main2()
 {
 	char name[] = "Íõ½Ü";
 	name_triangle(name);
