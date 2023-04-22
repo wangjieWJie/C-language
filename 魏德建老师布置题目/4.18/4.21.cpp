@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-int main()
+int main2()
 {
 	int a = 100;
 	int b = 0;

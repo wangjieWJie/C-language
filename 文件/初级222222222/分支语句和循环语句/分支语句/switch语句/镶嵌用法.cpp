@@ -12,7 +12,7 @@ int main()
 	case 1:
 		m++;    //m=3
 	case 2:
-		n++;    //n=2
+		n++;    //n=2                                     没有break那么就会执行下一条switch里下一条可执行的语句（如果有的话）
 	case 3:
 		switch  (n)  //switch 可以镶嵌使用
 		{case 1:

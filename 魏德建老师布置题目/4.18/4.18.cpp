@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_DEPRECATE 1
 #include<stdio.h>
-int main()
+int main1()
 {
 	int a = 1;
 	int b = 2;
