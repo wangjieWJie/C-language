@@ -135,3 +135,5 @@ google-services.json
 *.ipch
 *.vsidx
 *.lock
+*.vs
+.vs
