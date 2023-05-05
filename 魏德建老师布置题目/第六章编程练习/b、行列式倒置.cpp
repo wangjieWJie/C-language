@@ -1,32 +1,47 @@
 #define _CRT_SECURE_NO_DEPRECATE 1
 #include<iostream>
-const int ROW = 3;
-const int COL = 3;
+#include<iomanip>
+const int RC = 15;
 using namespace std;
-void show(std::string name,int arr[ROW][COL])
+void show(std::string name,int arr[RC][RC])
 {
 	cout << name<<" :\n";
 	int i{};
 	int j{};
-	for (i = 0; i < ROW; i++)
+	for (i = 0; i < RC; i++)
 	{
-		for(j=0;j<COL;j++)
+		for(j=0;j<RC;j++)
 		{
-			cout << arr[i][j] << "  ";
+			cout<< setw(5)<< arr[i][j];
 		}
 		cout << endl;
 	}
 }
-int main2()
+void Ini_arr(int arr[RC][RC])
+{
+	int go = 1;
+	for (int i = 0; i < RC; i++)
+	{
+		for (int j = 0; j < RC; j++)
+		{
+			arr[i][j] = go;
+			go++;
+		}
+	}
+}
+
+
+int main()
 {
 	int i{};
 	int j{};
-	int array_a[ROW][COL] = { 1,2,3,4,5,6,7,8,9 };
-	int array_b[ROW][COL]{};
+	int array_a[RC][RC] = { 0 };
+	int array_b[RC][RC]{};
+	Ini_arr(array_a);
 	show("array_a", array_a);
-	for (i = 0; i < ROW; i++)
+	for (i = 0; i < RC; i++)
 	{
-		for ( j = 0; j < COL; j++)
+		for ( j = 0; j < RC; j++)
 		{
 			array_b[i][j] = array_a[j][i];
 		}

@@ -132,6 +132,8 @@
     <ClCompile Include="4.22.cpp" />
     <ClCompile Include="4.23.cpp" />
     <ClCompile Include="4.24.cpp" />
+    <ClCompile Include="5.5.cpp" />
+    <ClCompile Include="5.5副本.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

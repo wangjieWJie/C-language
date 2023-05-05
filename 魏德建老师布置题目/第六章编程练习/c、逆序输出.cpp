@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_DEPRECATE 1
 #include<iostream>
 #include<string>
-int main()
+int main3()
 {
 	using namespace std;
 	int i{};
