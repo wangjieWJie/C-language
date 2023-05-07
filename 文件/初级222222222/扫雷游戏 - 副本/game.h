@@ -9,8 +9,8 @@
 #include<time.h>
 
 
-#define EASY_COUNT 15
-#define HAED_COUNT 20
+#define EASY_COUNT 10
+#define HAED_COUNT 15
 
 void InitBoard(char board[ROWS][COLS], int rows, int cols, char set);
 void DisplayBoard(char board[ROWS][COLS], int row, int col);
