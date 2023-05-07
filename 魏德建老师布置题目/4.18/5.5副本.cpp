@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_DEPRECATE 1
 #include<stdio.h>
-int main()
+int main5f()
 {
 	int a[3][3] = { {1,2,3},{4,5,6},{7,8,9} };
 	int b[3][3] = { 0 };
