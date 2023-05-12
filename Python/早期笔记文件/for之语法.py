@@ -4,18 +4,20 @@ for 临时变量 in 序列：
     重复执行的代码2
     ……
 '''
-strl='jd kd jdk dk'
-for t in strl:
-    print(t)
+A=[1,2,3,4,5]       
+for i in A:             # 若元素 i 在列表A里
+    print(i)            # 则输出 
 
 
-series='abcdefghijklmnopqistuvwxyz'
 a=0
-for i in series:
-    a+=1
+for b in "I love china":                 #完全可以输出
+    a+=1                                 #给我干懵逼了，这个for是用来干嘛的啊
     print(a)
-    print(i)
-    
+    print(b)
+else:                                    #for还可以和else搭配使用，但是现在我没看见什么卵用
+    print("字符串里没有b")
+
+
     
 SB='he do is a big 2B'
 sb=0

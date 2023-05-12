@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>32d36f60-7810-4a3c-9e87-bd0c87ee3dd5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>for之语法.py</StartupFile>
+    <StartupFile>while循环.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

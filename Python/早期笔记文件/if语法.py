@@ -20,4 +20,4 @@ import random
 #再用随机数给某数赋值
 num=random.randint(0,10)
 
-print(f你的幸运数字是{num})
+print(f'你的幸运数字是{num}')
