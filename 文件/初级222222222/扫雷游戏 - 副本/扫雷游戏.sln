@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "扫雷游戏", "扫雷游戏.vcxproj", "{61B044F3-B292-4DF1-B557-8B75C61620E3}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "阿杰扫雷", "阿杰扫雷\阿杰扫雷.vdproj", "{5BB382FE-3DCE-43B6-BABD-72796BF30E95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{61B044F3-B292-4DF1-B557-8B75C61620E3}.Release|x64.Build.0 = Release|x64
 		{61B044F3-B292-4DF1-B557-8B75C61620E3}.Release|x86.ActiveCfg = Release|Win32
 		{61B044F3-B292-4DF1-B557-8B75C61620E3}.Release|x86.Build.0 = Release|Win32
+		{5BB382FE-3DCE-43B6-BABD-72796BF30E95}.Debug|x64.ActiveCfg = Debug
+		{5BB382FE-3DCE-43B6-BABD-72796BF30E95}.Debug|x86.ActiveCfg = Debug
+		{5BB382FE-3DCE-43B6-BABD-72796BF30E95}.Release|x64.ActiveCfg = Release
+		{5BB382FE-3DCE-43B6-BABD-72796BF30E95}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
