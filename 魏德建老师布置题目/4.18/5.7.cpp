@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_DEPRECATE 1
 #include <stdio.h>
 const int mou = 50;
-int main()
+int main57()
 {
     char arr1[mou] = { 0 };
     char arr2[mou] = { 0 };
