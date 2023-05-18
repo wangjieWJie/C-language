@@ -11,8 +11,8 @@ int main() {
 	for (int i = 0; i < 3; i++)
 	{
 		printf("%d\n", *arr[i]);  //老师写的把 arr[i] 括号起来了 ： *(arr[i])
-
 	}
+	int cha; 
 
 	return 0;
 }
