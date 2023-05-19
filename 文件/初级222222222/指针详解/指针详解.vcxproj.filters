@@ -33,7 +33,7 @@
     <ClCompile Include="f.二级指针.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="g.指针数组.c">
+    <ClCompile Include="g.指针数组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

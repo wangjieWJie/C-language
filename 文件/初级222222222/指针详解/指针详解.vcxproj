@@ -133,7 +133,7 @@
     <ClCompile Include="d.指针运算.c" />
     <ClCompile Include="e.指针和数组：细节讲解.c" />
     <ClCompile Include="f.二级指针.c" />
-    <ClCompile Include="g.指针数组.c" />
+    <ClCompile Include="g.指针数组.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
