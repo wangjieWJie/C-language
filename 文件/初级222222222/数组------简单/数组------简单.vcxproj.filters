@@ -18,7 +18,7 @@
     <ClCompile Include="基础.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="一维数组.c">
+    <ClCompile Include="一维数组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="二维数组.c">

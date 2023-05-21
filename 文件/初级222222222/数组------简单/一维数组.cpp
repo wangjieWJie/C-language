@@ -1,8 +1,8 @@
 #define _CRT_SECURE_NO_DEPRECATE 1
 #include<stdio.h>
+#include<string.h>
 
-
-int main2() {
+int main() {
 
 	//介绍一个操作符： []   下标引用操作符
 		//它其实就是数组访问的操作符
@@ -42,9 +42,24 @@ int main2() {
 	}
 
 
+	//int one_num[] = { 0 };
+	//for (int i = 0; i < 10; i++)
+	//{
+
+	//	one_num[i] = i;                                 //此过程导致野指针，并造成堆栈。
+	//	printf("one_num[%d] = %d\n", i, one_num[i]);
+	//}
 
 
+	int ws = 10;
+	int* one_num = new int[ws];
+	for (int i = 0; i < ws; i++)
+	{
 
+		one_num[i] = 996;                               
+		printf("one_num[%d] = %d\n", i, one_num[i]);
+	}
+	delete[ws] one_num;
 
 
 

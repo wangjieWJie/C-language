@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="一维数组.c" />
+    <ClCompile Include="一维数组.cpp" />
     <ClCompile Include="二维数组.c" />
     <ClCompile Include="基础.c" />
     <ClCompile Include="数组名.c" />
