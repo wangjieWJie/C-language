@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<iostream>
 using namespace std;
-int main() {
+int main66() {
 
 	int a = 616;
 	int b = 626;

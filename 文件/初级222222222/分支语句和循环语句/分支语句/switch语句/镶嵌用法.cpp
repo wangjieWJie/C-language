@@ -15,12 +15,13 @@ int main()
 		n++;    //n=2                                     没有break那么就会执行下一条switch里下一条可执行的语句（如果有的话）
 	case 3:
 		switch  (n)  //switch 可以镶嵌使用
-		{case 1:
-			n++;    //
-		case 2:
-			m++;
-			n++;    //m=4  n=3
-			break;
+		{
+			case 1:
+				n++;    //
+			case 2:
+				m++;
+				n++;    //m=4  n=3
+				break;
 		}
 	case 4:
 		m++;    //m=5			全程没有一个break，所以能加的都加上
