@@ -44,7 +44,7 @@ int main1()
 			break;//好习惯，末尾也加break,未来再写不用加
 		default:               //如果上面的分支都没能进得去，就走default
 			printf("外星历法\n");
-
+			break;
 		}
 
 

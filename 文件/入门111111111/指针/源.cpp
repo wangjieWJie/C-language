@@ -1,13 +1,13 @@
 #define _CRT_SECURE_NO_DEPRECATE 1
 #include<string.h>
 #include<stdio.h>
-
+                               //   point   
 int main() {
 
 	int a = 3512232;
-	printf("%p\n", &a);
+	printf("aµÄµØÖ·ÊÇ£º%p\n", &a);
 
-	int* dizhi = &a;
+	int* dizhi = &a;                         //  int *p = &a ;    int* p
 	printf("%p\n", dizhi);
 
 	*dizhi = 20;
