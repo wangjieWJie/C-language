@@ -52,6 +52,9 @@ void test()
 	int input = 0;
 	do
 	{
+		clock_t start_t = clock();
+
+
 		menu();
 		printf("请选择>>:");
 		scanf("%d", &input);
@@ -67,6 +70,8 @@ void test()
 			printf("阿杰提醒您：你TM选错了吧，请看好了再选>>:\n");
 			break;
 		}
+		clock_t end_t = clock();
+		printf("%d s\n", (end_t - start_t)/100);
 	} while (input);
 }
 

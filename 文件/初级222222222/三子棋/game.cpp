@@ -50,15 +50,15 @@ void DisplayBoard(char board[ROW][COL], int row, int col)
 		for (j = 0; j < col; j++)
 		{
 			//2¡¢´òÓ¡·Ö¸ôÐÐ
-			if (j < col - 1 & i < row - 1)
+			if (j < col - 1 && i < row - 1)
 			{
 				printf("____|");
 			}
-			else if (i == row - 1 & j < col - 1)
+			else if (i == row - 1 && j < col - 1)
 			{
 				printf("    |");
 			}
-			else if (j == col - 1 & i < row - 1)
+			else if (j == col - 1 && i < row - 1)
 			{
 				printf("____");
 			}
