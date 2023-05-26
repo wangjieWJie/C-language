@@ -71,7 +71,7 @@ void test()
 			break;
 		}
 		clock_t end_t = clock();
-		printf("%d s\n", (end_t - start_t)/100);
+		printf("”√ ± £∫%d s\n", (end_t - start_t)/100);
 	} while (input);
 }
 

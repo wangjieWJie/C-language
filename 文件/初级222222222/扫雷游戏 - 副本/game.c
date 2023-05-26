@@ -124,7 +124,7 @@ void FindMine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col)
 	{
 		printf("阿杰请您麻溜的输入排查雷的坐标>>>:");
 		scanf("%d%d", &x, &y);
-
+		system("cls");       //system是执行系统命令的一个函数，---cls则表示清空屏幕  他在<stdlib.h>里
 		int ret = 1;
 
 		if (x >= 1 && x <= row && y <= col && y >= 0)
