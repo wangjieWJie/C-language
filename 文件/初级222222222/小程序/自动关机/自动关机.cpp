@@ -15,7 +15,7 @@ int main()
 {
 	char input[20] = { 0 };
 
-	system("shutdown -s -t 180");
+	system("shutdown -s -t 4200");
 again:
 	printf("i请注意你的电脑将在3分钟后关机，如果输入我是猪则取消关机\n");
 
