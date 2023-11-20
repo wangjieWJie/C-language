@@ -2,7 +2,6 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-#include<time.h>
 
 //在电脑中搜索 cmd （command）----命令行
 //打开后输入  shutdown -s -t 60 表示关机、设置关机、设置时间、60秒后关机。
